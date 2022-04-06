@@ -37,7 +37,7 @@ Você pode visitar o site [clicando aqui](https://darllinsonazvd.github.io/smart
 
 ## 📝 Licença
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.md) para mais detalhes.
 
 ## ▶ Getting Started
 
