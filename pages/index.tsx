@@ -4,7 +4,8 @@ import Head from 'next/head'
 import Questionnaire from '../components/Questionnaire'
 import QuestionModel from '../models/question'
 
-const BASE_URL = 'http://localhost:3000/api'
+const BASE_URL =
+  'https://quiz-do-milhao-28y7si0yp-darllinsonazvd.vercel.app/api'
 
 export default function Home() {
   const router = useRouter()
