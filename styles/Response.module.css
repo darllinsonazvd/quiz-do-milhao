@@ -1,0 +1,87 @@
+.response {
+  display: flex;
+  min-width: 31.25rem;
+  width: 80%;
+  height: 6.25rem;
+  margin: 0.625rem;
+  transition: all 0.2s ease-in-out;
+  perspective: 1000px;
+}
+
+.response:hover {
+  transform: scale(1.05);
+}
+
+.content {
+  position: relative;
+  display: flex;
+  flex: 1;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.content.responseDisplayed {
+  transform: rotateY(180deg);
+}
+
+.front,
+.back {
+  position: absolute;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.front {
+  align-items: center;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  color: #191919;
+  background-color: #fff;
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+
+.back > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  border-radius: 0.75rem;
+}
+
+.isRight {
+  background-color: #2baa6d;
+}
+
+.isWrong {
+  background-color: #e44a4c;
+}
+
+.isRight .value,
+.isWrong .value {
+  font-size: 1.5rem;
+}
+
+.option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 1.25rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-right: 1.25rem;
+  color: #fff;
+}
+
+.value {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
