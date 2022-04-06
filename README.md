@@ -14,7 +14,7 @@
 <br>
 
 <p align="center">
-  <img alt="preview of application" src=".github/preview.png" width="100%">
+  <img alt="preview of application" src=".github/preview.gif" width="100%">
 </p>
 
 ## 🚀 Tecnologias
