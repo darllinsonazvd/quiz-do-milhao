@@ -33,7 +33,7 @@ Bibliotecas
 
 Projeto de um quiz com perguntas baseadas no programa de televisão "Show do Milhão", desenvolvido utilizando ReactJS e Next.js.
 
-Você pode visitar o site [clicando aqui](https://darllinsonazvd.github.io/smartdesign-site/)
+Você pode visitar a aplicação [clicando aqui](https://quiz-do-milhao.vercel.app/)
 
 ## 📝 Licença
 
